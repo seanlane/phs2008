@@ -1,10 +1,10 @@
-header.masthead {
+.call-to-action {
   position: relative;
   background-color: $gray-800;
   background: url('../img/bg-masthead.jpg') no-repeat center center;
   @include background-cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
   .overlay {
     position: absolute;
     background-color: $gray-900;
@@ -14,15 +14,7 @@ header.masthead {
     left: 0;
     opacity: 0.3;
   }
-  h1 {
-    font-size: 2rem;
+  h2 {
     text-shadow: 1px 1px 3px black;
-  }
-  @media (min-width: 768px) {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-    h1 {
-      font-size: 3rem;
-    }
   }
 }
